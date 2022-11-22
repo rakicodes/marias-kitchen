@@ -1,6 +1,6 @@
 const express = require('express'); // CommonJS syntax
 const router = express.Router();
-const { getRecipes, getUserRecipes, getRecipe, createRecipe, likeRecipe, unlikeRecipe, deleteRecipe } = require('../controllers/Recipe')
+const { getRecipes, getUserRecipes, getRecipe, createRecipe, likeRecipe, unlikeRecipe, deleteRecipe } = require('../controllers/recipe')
 const { protect } = require('../middleware/auth')
 
 router.get('/', getRecipes)
