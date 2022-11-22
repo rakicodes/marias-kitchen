@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/api/recipes/'
+const API_URL = 'https://marias-kitchen.onrender.com/api/recipes/'
 
 
 // Create new recipe
