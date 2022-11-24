@@ -79,7 +79,7 @@ function Register() {
 
         <Form onSubmit={onSubmit}>
             <Form.Group className="mb-3">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label>Name</Form.Label>
                 <Form.Control type="text" id="name" name="name" value={name} placeholder="Enter name" onChange={onChange} />
             </Form.Group>
 
